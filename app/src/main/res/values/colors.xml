@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="card_color">#162336</color>
     <color name="conversion_color">#207b6e</color>
+    <color name="upper_bar">#325765</color>
 </resources>

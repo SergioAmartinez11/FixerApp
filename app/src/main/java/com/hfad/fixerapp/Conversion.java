@@ -10,6 +10,12 @@ public class Conversion{
 
     }
 
+    public Conversion(String from, String to, String amount, String result) {
+        this.from = from;
+        this.to = to;
+        this.amount = amount;
+        this.result = result;
+    }
 
     public String getResult() {
         return result;

@@ -61,6 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Convert"
-        android:onClick="onClickConversionButton" />
+        android:onClick="onClickConversionButton"
+        android:backgroundTint="@color/conversion_color"/>
 
 </LinearLayout>
