@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".ConversionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|fill"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/result_currencyText"
+            android:layout_width="227dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:hint="result"
+            android:inputType="number" />
+
+        <Spinner
+            android:id="@+id/spinnerTo"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:spinnerMode="dropdown"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/base_currencyInput"
+            android:layout_width="227dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:hint="Enter amount"
+            android:inputType="numberDecimal"
+            android:numeric="decimal" />
+
+        <Spinner
+            android:id="@+id/spinnerFrom"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/convertButtonActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:onClick="onClickConversionButton" />
+
+</LinearLayout>
