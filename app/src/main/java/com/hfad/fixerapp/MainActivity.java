@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickConversionButton(View view) {
         Intent intent = new Intent(this, ConversionActivity.class);
-        intent.putExtra("DEFAULT_BASE","MXN");
+        intent.putExtra("DEFAULT_BASE",FROM_CURRENCY);
         startActivity(intent);
 
     }
