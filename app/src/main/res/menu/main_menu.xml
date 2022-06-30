@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/usd_def"
+        android:title="USD" />
+    <item
+        android:id="@+id/mxn_def"
+        android:title="MXN" />
+    <item
+        android:id="@+id/cad_def"
+        android:title="CAD" />
+    <item
+        android:id="@+id/jpy_def"
+        android:title="JPY" />
+    <item
+        android:id="@+id/gbp_def"
+        android:title="GBP" />
+    <item
+        android:id="@+id/cnd_def"
+        android:title="CND" />
+    <item
+        android:id="@+id/hkd_def"
+        android:title="HKD" />
+    <item
+        android:id="@+id/eur_def"
+        android:title="EUR" />
+
+</menu>

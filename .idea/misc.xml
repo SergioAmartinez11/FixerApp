@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Sergio/AndroidStudioProjects/FixerApp/app/src/main/res/layout/activity_conversion.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/Sergio/AndroidStudioProjects/FixerApp/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Users/Sergio/AndroidStudioProjects/FixerApp/app/src/main/res/menu/main_menu.xml" value="0.37083333333333335" />
         <entry key="app/src/main/res/layout/activity_conversion.xml" value="0.5" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/menu_navigation.xml" value="0.375" />
